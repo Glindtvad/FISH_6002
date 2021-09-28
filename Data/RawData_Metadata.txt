@@ -93,7 +93,6 @@ PelSampType - Pelagic trawl sampling type.
 MinTrawlDepth - Lowest depth of the pelagic trawling.
 MaxTrawlDepth - Highest depth of the pelagic trawling.
 DateofCalculation - YYYYMMDD, when the product was updated in the database.
-
 SpecCodeType - Type of species code used for species definition at the record. Use 'W' for WoRMS AphiaID.
 SpecCode - Official WoRMS AphiaID code of species reported at the record. Historical records may refer to ITIS TSN species codes.
 SpecVal - Validity of species records. If the records should not be used for counting of indices, use 0.
