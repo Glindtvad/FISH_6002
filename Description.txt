@@ -5,8 +5,10 @@ Updated: 29/09/2021
 
 Background: This is the major assignment for the course FISH 6002: Data collection, Management and Display, offered at the Marine Institutte, Memorial University, St. John's.
 	    This assignment is in three parts, I) colletion of data, II) manipulation of data and III) visual presentation of data.
-	    Raw data and information is found in the Data/ folder, while Analysis/ folder will contain R scripts for cleaning, manipulation and visualization of the data. 
-	    Results_&_Visualization/ folder will contain the results, tables and graphs produced by the R scripts. The folder will also contain an Rmarkdown document to produce a word file containing the results, tables and graphs with descriptions.
+	    "Data/" folder contains the raw data and metadata, 
+	    while "Analysis/" folder will contain R scripts for cleaning, manipulation and visualization of the data.
+	    "TidyData/" folder will contain tidy and manipulated datasets.
+	    "Results/" folder will contain the results, tables and graphs produced by the R scripts and a Rmarkdown document to produce a word file containing the results, tables and graphs with descriptions.
 
 
 === Folder structure ===
@@ -18,10 +20,14 @@ FISH_6002_Major_Assignment
 |- Description.txt # Description of the R project and overview of the folder structure of the FISH_6002_Major_Assignment folder.
 |
 |- Data/ 
-| +- RawData.csv # IBTS dataset from ICES Datras database
-| +- RawData_Metadata.txt # Metadata file describing the RawData.csv
+|	+- RawData.csv # IBTS dataset from ICES Datras database
+|	+- RawData_Metadata.txt # Metadata file describing the RawData.csv
+|
+|
+|- TidyData/ 
+|
 |
 |- Analysis/ 
-| +- Manipulation.R # R script for tidying the rawdata (Not finished)
+|	+- Manipulation.R # R script for tidying the rawdata (Not finished)
 |
 |- Results&Visualization/ 
