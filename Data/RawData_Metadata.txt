@@ -1,0 +1,128 @@
+
+Name of data: North Sea - International Bottom Trawl Survey
+File Size: 81,4 MB
+Publisher: International Council for the Exploration of the Sea
+Date downloaded: 2021-09-10
+Download Link: https://datras.ices.dk/Data_products/Download/Download_Data_public.aspx
+Data product: Exchange
+Quarter(s): All
+Years collected: 2005, 2010, 2015, 2020
+Contribution countries: Denmark, France, Germany, Great Britain, Netherland, Norway, Scotland, Sweden
+
+
+Summary: Dataset contains the annual survey data from the ICES NS-IBTS, collaborated between 8 countries for the years 2005, 2010, 2015 and 2020. 
+	 Data is a compilation of three datasets of the hauling information, overall catches and detailed by species.
+	 Hauling data includes information such as location, time, year and physical information of the trawling gear and the deployment of it.
+	 Overall catch data includes area, time and trawl data and catch data such as species, total numbers, total weight, measured numbers, subtotal weight and individual lengths.
+	
+
+Area: North Sea
+Number of datasets: 3
+Name of datasets: Hauling information (HH), Species length information (HL), Sex, Maturity, Age and Length Key (CA)
+Number of columns: 69 (HH), 30 (HL), 35 (CA)
+Number of rows: 2972 (HH), 368282 (HL), 220879 (CA)
+
+Variables:
+
+RecordType - The field consists of a 2-character code, which defines the record type and thus the layout of the data fields included on that record. Codes are as follows: HH - Haul Information, HL - Length Frequency Distribution, CA - SMALKS.
+Survey – Name of the Survey performed.
+Quarter - Cruise quarter. Hauls outside of the calendar quarter can be reported with the same quarter reference, if agreed by the survey group.
+Country - DATRAS code for the country that performed the survey. Ship flag does not affect this field
+Ship  - DATRAS ship reference code.
+Gear - Gear type code.
+SweepLngt - Length of sweep in metres.
+GearEx - Gear exceptions
+DoorType - Door type. Gear-related field
+StNo  - Station number. National coding system, not defined by ICES.
+HaulNo - Sequential numbering of hauls during cruise. In CA-records: HaulNo=-9 for Area-based ALK, HaulNo<>-9 and >0 for Haul-based ALK
+Year - Cruise year (YYYY)
+Month - Month of the haul (MM). Quarter-related numeric value.
+Day - Calendar date of the haul (DD). Year and Month-related.
+TimeShot - Start time (GMT) of haul (HHMM), where 0001= 00:01 !Must be reported as 4 digits! Daytime is recommended for trawling.
+Stratum - Depth stratum
+HaulDur - Duration of the haul in minutes
+DayNight – Whether the haul was in the day or night
+ShootLat  - Shooting position: Degree.Decimal Degree of latitude
+ShootLong  - Shooting position: Degree.Decimal Degree of longitude.
+HaulLat  - Hauling position: Degree.Decimal Degree of latitude
+HaulLong  - Hauling position: Degree.Decimal Degree of longitude.
+StatRec - ICES statistical area rectangle (0.5 degrees latitude, 1 degree longitude). Shooting-position sensitive.
+Depth - Depth from the surface in metres.
+HaulVal - Haul validity code. Related with SpecVal from HL. F.ex. if HaulVal is I, SpecVal should be 0.
+HydroStNo - The national hydrographic station number - custom code. -9=not specified
+StdSpecRecCode - Standard species recording code. General information on whether standard species are recorded. Sensitive for species code at HL
+BySpecRecCode – By-catch species recording code. General information on whether by-catch species are recorded. Sensitive for species code at HL.
+DataType - Code that specifies the data type for a number of fields in HL-record. C - TotalNo and CatCatchWgt are adjusted per hour of hauling; R and S - raw data as recorded during the cruise. S should be applied only if whole catch was sub-sampled, so SubFactor for the hole is > 1.
+Netopening - Mean value in metres of vertical net opening measurements. For more details see the manual.
+Rigging - Rigging used in Beam Trawl surveys
+Tickler - Number of tickler
+Distance - Distance in metres between haul start and haul end point.
+Warplngt  - Length of warp in metres. Defined by fishing depth.
+Warpdia  - Warp diameter in millimetres.
+WarpDen  - Warp weight in kg per linear meter of warp.
+DoorSurface  - Door surface area in square metres.
+DoorWgt  - Door weight in kilograms.
+DoorSpread  - Mean value in metres of door spread measurements.
+WingSpread  - Mean value of wing spread in metres.
+Buoyancy - Total buoyancy of the net floats in kilograms.
+KiteDim - Kite area in square metres.
+WgtGroundRope - Total weight of the ground rope in kilograms.
+TowDir - Direction of towing in degrees. 360=direction from south to north,-1 = varying direction
+GroundSpeed - Ground speed of towing in knots. See the manual for more details
+SpeedWater - Trawl speed on water in knots.
+SurCurDir - Surface current direction in degrees. No movement = 0, 360=direction from south to north.
+SurCurSpeed - Surface current speed in m/sec.
+BotCurDir - Bottom current direction in degrees. No movement = 0, 360=direction from south to north.
+BotCurSpeed - Bottom current speed in metres/sec.
+WindDir - Direction of wind in degrees. Calm=0, 360=direction from north to south.
+WindSpeed - Speed of wind in metres/sec.
+SwellDir - Direction of swell in degrees. No movement=0, 360=direction from south to north.
+SwellHeight - Height in metres of the formation of long wavelength ocean surface waves defined as swell.
+SurTemp - Temperature at the surface water layer in Celsius degrees.
+BotTemp - Temperature at the bottom water layer in Celsius degrees.
+SurSal - Salinity at the surface water layer in Practical Salinity Units (PSU).
+BotSal - Salinity at the bottom water layer in Practical Salinity Units (PSU).
+ThermoCline - Declare whether thermocline was observed. Defined as 2 degrees change in temperature over 10 meters.
+ThClineDepth - Distance in meters from surface to the point where thermocline was found.
+CodendMesh - Codend mesh size in mm.
+SecchiDepth - Secchi depth in metres.
+Turbidity - Turbidity in NTU.
+TidePhase - Tidal phase in minutes before the next high tide.
+TideSpeed - Speed of tide in m/s.
+PelSampType - Pelagic trawl sampling type.
+MinTrawlDepth - Lowest depth of the pelagic trawling.
+MaxTrawlDepth - Highest depth of the pelagic trawling.
+DateofCalculation - YYYYMMDD, when the product was updated in the database.
+
+SpecCodeType - Type of species code used for species definition at the record. Use 'W' for WoRMS AphiaID.
+SpecCode - Official WoRMS AphiaID code of species reported at the record. Historical records may refer to ITIS TSN species codes.
+SpecVal - Validity of species records. If the records should not be used for counting of indices, use 0.
+Sex - Gender of the described species category. In CA-records should be defined by dissection. If no determination was performed, report '-9'. If determination failed, report 'U'.
+TotalNo - Total number of fish in the given haul and species. =Sum(HLNoAtLngt)*SubFactor; =NoMeas*SubFactor, but if DataType in HH is C, then = TotNo/hour/haul.
+CatIdentifier - Subsampling category by size for same species in the haul. If DataType is C, CatIdentifier is always 1. For further description and examples of use look up the NS-IBTS manual.
+NoMeas - Number of measured fish in the given haul or subsample, species, and sex.
+SubFactor - Sub-sampling factor. If 1/6 of the catch was measured, report 6. If DataType is C, it should be reported as 1. If DataType is S, it is always >1. If DataType is R, the SubFactor is = 1 or >1 for different species depending on whether they were subsampled. More details for use of SubFactor can be found in the manual.
+SubWgt - Value in grams for the weight of the subsampled fish for a given haul for a given category of the given species.
+CatCatchWgt - Catch weight in grams per category (for the unique combination of cruise haul, species, sex, and category identifier), or total species weight per haul per hour for CPUE data type (see HH reocrd for details).
+LngtCode - Length class code for the given species.
+LngtClass - Length classes registered for this catch category as specified at the LngthCode. Species-sensitive. Indicates the lower bound of length distribution at this category. F.ex. 65-70cm=65.
+HLNoAtLngt - Number of fish at this category in this haul. For CPUE data should be adjusted with time. TotNo=Sum(HLNoAtLngt)*SubFactor for this species.
+DevStage - Development or maturity stage defined by non-invasive observations.
+LenMeasType - Type of length measurement.
+ValidAphiaID - Valid WoRMS AphiaID for the reported species code as in WoRMS.
+ScientificName_WoRMS - Scientific name of the species.
+AreaType - Is age sampling based on ICES statistical rectangles or survey areas? If it's Statrecs, make sure that all CA-records have the relevant HL-records.
+AreaCode - Specify the area code for the given record according to the AreaType code (statrec, subdivision, or survey index area code).
+Maturity - Maturity code of the reported species category. Requires dissection. Refer to the survey manual for details.
+MaturityScale - The Maturity scale type used. 6-stage international maturity scale (M6) or the WKASMSF 2018 scale (SMSF).
+PlusGr - Records with high age categories can be grouped into the Plus group. If the plus group age is specified, no higher ages can be reported for the species in the haul.
+AgeRings - Age of specimen in years. Age determination is based on sampled otoliths or other source materials. -9 - unknown age.
+CANoAtLngt - Amount of fish at the given category (per haul, species, length class, sex, maturity, age).
+IndWgt - Mean weight of fish in this category in grams.
+FishID - Sample ID assigned by the national lab.
+GenSamp - Flag whether genetic sample was taken.
+StomSamp - Flag whether stomach sampling was performed.
+ParSamp - Flag whether parasites sampling was performed.
+AgeSource - Age reading source material.
+AgePrepMet - Age reading preparation method.
+OtGrading - Grading of the otolith reading.
